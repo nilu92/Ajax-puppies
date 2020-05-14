@@ -12,7 +12,7 @@ $(document).ready(function(){
             {
                 var image ="<img src='" + respons.data.children[i].data.thumbnail + "'/>";
                 $('.text').append(image);
-                $('p').text('Done');
+                $('p').text('Done! :)');
             }
           
         }
